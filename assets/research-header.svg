@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Kartik Mehra — Research, Mathematics and Computing</title>
+  <desc id="desc">A midnight-blue research notebook with a mathematical grid and a glowing waveform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111F"/><stop offset="0.58" stop-color="#0C1D31"/><stop offset="1" stop-color="#0B1A26"/></linearGradient>
+    <linearGradient id="wave" x1="0" x2="1"><stop stop-color="#4A78E8"/><stop offset="1" stop-color="#5ED9C1"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#2477B0" stop-opacity=".25"/><stop offset="1" stop-color="#2477B0" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#7CA4C1" stroke-opacity=".10"/></pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="388" rx="18"/></clipPath>
+  </defs>
+  <rect width="1200" height="390" rx="18" fill="url(#bg)"/>
+  <g clip-path="url(#clip)"><rect width="1200" height="390" fill="url(#grid)"/><circle cx="968" cy="166" r="280" fill="url(#glow)"/>
+    <path d="M660 260C700 257 719 213 751 222S800 293 833 259 865 149 904 173 944 270 980 226 1011 132 1046 154 1080 220 1111 202 1154 144 1208 151" fill="none" stroke="url(#wave)" stroke-width="2.7"/>
+    <path d="M660 275C700 272 719 228 751 237S800 308 833 274 865 164 904 188 944 285 980 241 1011 147 1046 169 1080 235 1111 217 1154 159 1208 166" fill="none" stroke="#6ED6CC" stroke-opacity=".20" stroke-width="1.2"/>
+    <g fill="#79BDD3" font-family="Georgia, serif" font-style="italic" opacity=".48"><text x="727" y="96" font-size="27">∇</text><text x="880" y="111" font-size="25">∑</text><text x="1080" y="98" font-size="30">∫</text><text x="973" y="309" font-size="22">∂</text></g>
+    <g fill="#76E1CC"><circle cx="751" cy="222" r="3"/><circle cx="904" cy="173" r="3"/><circle cx="1046" cy="154" r="3"/></g>
+  </g>
+  <rect x="1" y="1" width="1198" height="388" rx="18" fill="none" stroke="#75A7C2" stroke-opacity=".25"/>
+  <text x="76" y="88" fill="#78D8C9" font-family="Arial, sans-serif" font-size="13" letter-spacing="4">RESEARCH  /  MATHEMATICS  /  COMPUTING</text>
+  <text x="72" y="174" fill="#F0F6FD" font-family="Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="3">KARTIK MEHRA</text>
+  <rect x="76" y="196" width="74" height="3" rx="1.5" fill="#68DCC9"/>
+  <text x="76" y="244" fill="#B7CCDC" font-family="Arial, sans-serif" font-size="21">Curious about ideas. Committed to building.</text>
+  <text x="76" y="317" fill="#7396AA" font-family="monospace" font-size="14" letter-spacing="1.2">RESEARCH  •  AI &amp; ML  •  CLOUD  •  SOFTWARE</text>
+</svg>
